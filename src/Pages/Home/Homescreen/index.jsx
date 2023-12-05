@@ -1,12 +1,11 @@
 import HeroSection from "../HeroSection";
-
-
-import React from 'react'
+import MySkills from "../MySkills";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
+      <MySkills />
     </>
-  )
+  );
 }
