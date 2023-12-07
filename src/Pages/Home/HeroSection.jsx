@@ -14,7 +14,7 @@ export default function HeroSection() {
           <p className="hero--section--description">
             My Name is Olusola Jaiyeola, I'm a Full Stack Developer.
             <br />
-            I build beautiful and responsive websiites with web applications using the
+            I build beautiful and responsive websites with web applications using the
             latest technologies.
           </p>
         </div>

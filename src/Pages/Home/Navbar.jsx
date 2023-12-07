@@ -61,6 +61,7 @@ function Navbar() {
               Home
             </Link>
           </li>
+
           <li>
             <Link
               onClick={closeMenu}
@@ -75,6 +76,7 @@ function Navbar() {
               Portfolio
             </Link>
           </li>
+
           <li>
             <Link
               onClick={closeMenu}
@@ -89,6 +91,7 @@ function Navbar() {
               About Me
             </Link>
           </li>
+          
           <li>
             <Link
               onClick={closeMenu}
