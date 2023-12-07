@@ -276,7 +276,7 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   gap: 42.6px;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(3,1fr);
 }
 .skills--section--card {
   display: flex;
@@ -304,6 +304,9 @@ h2 {
   border-radius: 10.6px;
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2);
+}
+.skills--section--img > img {
+  width: 100px;
 }
 .skills--section--card--content {
   display: flex;
@@ -371,9 +374,11 @@ h2 {
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
+  
 }
 .portfolio--section--img > img {
   width: 100%;
+  
 }
 .portfolio--section--card {
   display: flex;
@@ -386,6 +391,7 @@ h2 {
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  /* height: 100px; */
 }
 .portfolio--section--card--content {
   display: flex;
@@ -410,3 +416,47 @@ h2 {
   stroke: #006b6a;
 }
 /* Portfolio Ends */
+
+/* Testimonials */
+.testimonial--section {
+  display: flex;
+  padding: 112px 84.3px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  background-color: var(--bg-shade);
+}
+.sections--heading {
+  color: var(--heading-color);
+}
+.testimonial--section--card {
+  display: flex;
+  padding: 42.6px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 42.6px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  border: 1.33px solid #006b6a;
+}
+.testimonial--section--card--review {
+  display: flex;
+  align-items: flex-start;
+  gap: 5.33px;
+}
+.testimonial--section--card--author--detail {
+  display: flex;
+  align-items: center;
+  gap: 21.3px;
+}
+.testimonial--author--name {
+  font-weight: 600;
+  color: var(--heading-color);
+}
+.testimonial--author--designation {
+  color: var(--darkblue);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+/* Testimonial styling ends */

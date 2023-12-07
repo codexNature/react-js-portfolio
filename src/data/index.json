@@ -4,41 +4,35 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies."
+      "description": "I'm quite familiar and good with an array of tools to build stunning and dynamic Front-End website. I know how to use ReactJS, HTML5, CSS3, Redux, Bootstrap,TailwindCSS to name a few."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies."
+      "description": "I use tools like NodeJS, ExpressJS, RestFull APIs, fetch etc to build and maintain the backend or server side of your website to ensure your website runs and functions smoothly"
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
-      "title": "Front-End",
-      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies."
-    },
-    {
-      "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies."
+      "title": "Database",
+      "description": "As a MERN Stack developer I'm most familiar with MongoDB to store data for your website, I have however on several occasion used Firebase and I am also getting familiar with SQL like Postgres"
     }
   ],
 
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies.",
+      "src": "./img/natureestate.png",
+      "title": "Real Estate Website",
+      "description": "This fullstack real estate website was built with React and Tailwind on frontend and NodeJS, ExpressJS, JWT, Firebase etc for backend while MongoDB to store data.",
       "link": "View In Github"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies.",
+      "src": "./img/Ecommerce.png",
+      "title": "Ecommerce Website",
+      "description": "This is the frontend of simple Ecormerce website, buiting using ReactJS, Redux and CSS3 for styling.",
       "link": "View In Github"
     },
     {
@@ -47,6 +41,36 @@
       "title": "Easy Rent",
       "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies.",
       "link": "View In Github"
+    }
+  ],
+
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "title": "Ahuse",
+      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies.",
+      "author_name": "Wally West",
+      "author_designation": "Starlabs"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "title": "Ahuse",
+      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies.",
+      "author_name": "Bruce Wayne",
+      "author_designation": "Wayne Ent"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "title": "Ahuse",
+      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies.",
+      "author_name": "Clark Kent",
+      "author_designation": "Daily Planet"
     }
   ]
 }
