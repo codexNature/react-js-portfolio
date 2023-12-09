@@ -31,16 +31,24 @@ export default function MyPortfolio(){
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
-            <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
+            <div>
+              <a className="portfolio--section--img" href={`${item.titlelink}`}>
+                <img src={item.src} alt="Placeholder" />
+              </a>
             </div>
+
             <div className="portfolio--section--card--content">
               <div>
-                <h3 className="portfolio--section--title">{item.title}</h3>
+                <a
+                  className="portfolio--section--title"
+                  href={`${item.titlelink}`}
+                >
+                  <h3>{item.title}</h3>
+                </a>
                 <p className="text.md">{item.description}</p>
               </div>
               <p className="text--sm portfolio--link">
-                {item.link}
+                <a href={`${item.link}`}>View In Github</a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

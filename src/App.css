@@ -194,6 +194,9 @@ h2 {
   line-height: 24px;
   cursor: pointer;
 }
+.navbar--logo > img {
+  width: 120px;
+}
 .navbar--active-content {
   color: var(--primary);
 }
@@ -401,8 +404,9 @@ h2 {
   gap: 32px;
   align-self: stretch;
 }
-.portfolio--section--titles {
+.portfolio--section--title {
   color: var(--heading-color);
+  text-decoration: none;
 }
 .portfolio--link {
   text-decoration: none;
@@ -411,6 +415,10 @@ h2 {
   border-bottom: 1.33px solid var(--primary);
   padding-bottom: 10.6px;
   font-weight: 600;
+}
+.portfolio--link > a {
+  text-decoration: none;
+  color: black;
 }
 .portfolio--section--card:hover path {
   stroke: #006b6a;

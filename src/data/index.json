@@ -25,15 +25,17 @@
       "id": "1",
       "src": "./img/natureestate.png",
       "title": "Real Estate Website",
+      "titlelink": "https://natureestates.onrender.com/",
       "description": "This fullstack real estate website was built with React and Tailwind on frontend and NodeJS, ExpressJS, JWT, Firebase etc for backend while MongoDB to store data.",
-      "link": "View In Github"
+      "link": "https://github.com/codexNature/NatureEstate"
     },
     {
       "id": "2",
       "src": "./img/Ecommerce.png",
       "title": "Ecommerce Website",
+      "titlelink":"https://codexnature.github.io/E-Commerce/",
       "description": "This is the frontend of simple Ecormerce website, buiting using ReactJS, Redux and CSS3 for styling.",
-      "link": "View In Github"
+      "link": "https://github.com/codexNature/E-Commerce"
     },
     {
       "id": "3",
