@@ -10,14 +10,16 @@ export default function ContactMe() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_mi8ci8g",
+        "template_gj0ajql",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "9O7jzwJLbMzi1Milo"
       )
       .then(
         (result) => {
           console.log(result.text);
+          console.log("message sent")
+          e.target.reset()
         },
         (error) => {
           console.log(error.text);
@@ -72,8 +74,11 @@ export default function ContactMe() {
             />
           </label>
 
-          <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">Phone Number</span>
+          <label 
+          htmlFor="phone-number" 
+          className="contact--label">
+            <span 
+            className="text-md">Phone Number</span>
             <input
               type="number"
               className="contact--input text-md"
@@ -83,15 +88,22 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="choose-topic" className="contact--label">
-          <span c lassName="text-md">
+        <label 
+          htmlFor="choose-topic" 
+          className="contact--label">
+          <span 
+          className="text-md">
             Choose a topic
           </span>
-          <select id="choose-topic" className="contact--input contact">
+          <select 
+          id="choose-topic" 
+          name="choose-topic"
+          required
+          className="contact--input contact">
             <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2.</option>
-            <option>Item 3</option>
+            <option>New Website</option>
+            <option>Existing Website</option>
+            <option>Others</option>
           </select>
         </label>
 
@@ -120,7 +132,10 @@ export default function ContactMe() {
           className="text-sm">I accept the terms</span>
         </label>
         <div>
-          <button className="btn btn-primary contact--form--btn">Submit</button>
+          <button 
+          className="btn btn-primary contact--form--btn" 
+          onSubmit={sendEmail}> 
+          Submit</button>
         </div>
       </form>
     </section>

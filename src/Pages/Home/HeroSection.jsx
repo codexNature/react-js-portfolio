@@ -12,13 +12,18 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section--description">
-            My Name is Olusola Jaiyeola, I'm a Full Stack Developer.
-            <br />
-            I build beautiful and responsive websites with web applications using the
-            latest technologies.
+            I'm Olusola Jaiyeola, a Full Stack Developer who specializes in
+            creating stunning, responsive websites and web applications using
+            cutting-edge technologies.
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <button
+          onClick={() => 
+          (window.location = "mailto:olusolajaiyeola@gmail.com")}
+          className="btn btn-primary"
+        >
+          Get In Touch
+        </button>
       </div>
       <div className="hero--section--img">
         <img src="./img/hero_img.png" alt="Hero Section Image" />

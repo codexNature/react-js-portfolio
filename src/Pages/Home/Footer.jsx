@@ -146,7 +146,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/olusola-jaiyeola-61973065/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
